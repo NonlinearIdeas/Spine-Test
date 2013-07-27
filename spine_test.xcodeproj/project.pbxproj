@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4C000017A34C8F00061C83 /* goblins.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFEB17A34C8F00061C83 /* goblins.png */; };
+		1A4C000117A34C8F00061C83 /* spineboy.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFEC17A34C8F00061C83 /* spineboy.atlas */; };
+		1A4C000217A34C8F00061C83 /* spineboy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFED17A34C8F00061C83 /* spineboy.png */; };
+		1A4C000317A34C8F00061C83 /* goblins.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFEF17A34C8F00061C83 /* goblins.atlas */; };
+		1A4C000417A34C8F00061C83 /* goblins.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFF017A34C8F00061C83 /* goblins.png */; };
+		1A4C000517A34C8F00061C83 /* spineboy.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFF117A34C8F00061C83 /* spineboy.atlas */; };
+		1A4C000617A34C8F00061C83 /* spineboy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFF217A34C8F00061C83 /* spineboy.png */; };
+		1A4C001217A34CBB00061C83 /* ExampleLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C001017A34CBB00061C83 /* ExampleLayer.cpp */; };
+		1A4C001517A34CCF00061C83 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C001317A34CCF00061C83 /* AppDelegate.cpp */; };
 		1A4CFC3917A34A5400061C83 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4CFC3817A34A5400061C83 /* QuartzCore.framework */; };
 		1A4CFC3B17A34A5400061C83 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4CFC3A17A34A5400061C83 /* OpenGLES.framework */; };
 		1A4CFC3D17A34A5400061C83 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4CFC3C17A34A5400061C83 /* OpenAL.framework */; };
@@ -278,11 +287,20 @@
 		1A4CFFCC17A34A6100061C83 /* cpSweep1D.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A4CFFCB17A34A6100061C83 /* cpSweep1D.c */; };
 		1A4CFFCE17A34A6100061C83 /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A4CFFCD17A34A6100061C83 /* cpVect.c */; };
 		1A4CFFD617A34A6100061C83 /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4CFFD517A34A6100061C83 /* libwebsockets.a */; };
-		1A4CFFDC17A34A6200061C83 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A4CFFDB17A34A6200061C83 /* AppDelegate.cpp */; };
-		1A4CFFDF17A34A6200061C83 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A4CFFDE17A34A6200061C83 /* HelloWorldScene.cpp */; };
+		1A4CFFFD17A34C8F00061C83 /* goblins.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFE717A34C8F00061C83 /* goblins.json */; };
+		1A4CFFFE17A34C8F00061C83 /* spineboy.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFE817A34C8F00061C83 /* spineboy.json */; };
+		1A4CFFFF17A34C8F00061C83 /* goblins.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFEA17A34C8F00061C83 /* goblins.atlas */; };
+		1A9FBEDA17A450E40049D985 /* arrows.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1A9FBED717A450E40049D985 /* arrows.atlas */; };
+		1A9FBEDB17A450E40049D985 /* arrows.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A9FBED817A450E40049D985 /* arrows.json */; };
+		1A9FBEDC17A450E40049D985 /* arrows.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A9FBED917A450E40049D985 /* arrows.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A4C000F17A34CBB00061C83 /* AppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacros.h; sourceTree = "<group>"; };
+		1A4C001017A34CBB00061C83 /* ExampleLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExampleLayer.cpp; sourceTree = "<group>"; };
+		1A4C001117A34CBB00061C83 /* ExampleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleLayer.h; sourceTree = "<group>"; };
+		1A4C001317A34CCF00061C83 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
+		1A4C001417A34CCF00061C83 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1A4CFC3517A34A5400061C83 /* spine_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spine_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A4CFC3817A34A5400061C83 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1A4CFC3A17A34A5400061C83 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -869,10 +887,19 @@
 		1A4CFFD317A34A6100061C83 /* libwebsockets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = libwebsockets.h; path = libs/libwebsockets/ios/include/libwebsockets.h; sourceTree = "<group>"; };
 		1A4CFFD517A34A6100061C83 /* libwebsockets.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwebsockets.a; path = libs/libwebsockets/ios/lib/libwebsockets.a; sourceTree = "<group>"; };
 		1A4CFFD817A34A6200061C83 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		1A4CFFDA17A34A6200061C83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
-		1A4CFFDB17A34A6200061C83 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
-		1A4CFFDD17A34A6200061C83 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		1A4CFFDE17A34A6200061C83 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		1A4CFFE717A34C8F00061C83 /* goblins.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = goblins.json; sourceTree = "<group>"; };
+		1A4CFFE817A34C8F00061C83 /* spineboy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = spineboy.json; sourceTree = "<group>"; };
+		1A4CFFEA17A34C8F00061C83 /* goblins.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = goblins.atlas; sourceTree = "<group>"; };
+		1A4CFFEB17A34C8F00061C83 /* goblins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goblins.png; sourceTree = "<group>"; };
+		1A4CFFEC17A34C8F00061C83 /* spineboy.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spineboy.atlas; sourceTree = "<group>"; };
+		1A4CFFED17A34C8F00061C83 /* spineboy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spineboy.png; sourceTree = "<group>"; };
+		1A4CFFEF17A34C8F00061C83 /* goblins.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = goblins.atlas; sourceTree = "<group>"; };
+		1A4CFFF017A34C8F00061C83 /* goblins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goblins.png; sourceTree = "<group>"; };
+		1A4CFFF117A34C8F00061C83 /* spineboy.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spineboy.atlas; sourceTree = "<group>"; };
+		1A4CFFF217A34C8F00061C83 /* spineboy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spineboy.png; sourceTree = "<group>"; };
+		1A9FBED717A450E40049D985 /* arrows.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = arrows.atlas; sourceTree = "<group>"; };
+		1A9FBED817A450E40049D985 /* arrows.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = arrows.json; sourceTree = "<group>"; };
+		1A9FBED917A450E40049D985 /* arrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrows.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -944,6 +971,9 @@
 		1A4CFC4917A34A5400061C83 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1A4CFFE617A34C8F00061C83 /* common */,
+				1A4CFFE917A34C8F00061C83 /* ipad */,
+				1A4CFFEE17A34C8F00061C83 /* ipadhd */,
 				1A4CFC4A17A34A5400061C83 /* CloseNormal.png */,
 				1A4CFC4C17A34A5400061C83 /* CloseSelected.png */,
 				1A4CFC4E17A34A5400061C83 /* Default.png */,
@@ -2093,12 +2123,47 @@
 		1A4CFFD917A34A6200061C83 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1A4CFFDA17A34A6200061C83 /* AppDelegate.h */,
-				1A4CFFDB17A34A6200061C83 /* AppDelegate.cpp */,
-				1A4CFFDD17A34A6200061C83 /* HelloWorldScene.h */,
-				1A4CFFDE17A34A6200061C83 /* HelloWorldScene.cpp */,
+				1A4C001317A34CCF00061C83 /* AppDelegate.cpp */,
+				1A4C001417A34CCF00061C83 /* AppDelegate.h */,
+				1A4C000F17A34CBB00061C83 /* AppMacros.h */,
+				1A4C001017A34CBB00061C83 /* ExampleLayer.cpp */,
+				1A4C001117A34CBB00061C83 /* ExampleLayer.h */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		1A4CFFE617A34C8F00061C83 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				1A4CFFE717A34C8F00061C83 /* goblins.json */,
+				1A4CFFE817A34C8F00061C83 /* spineboy.json */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		1A4CFFE917A34C8F00061C83 /* ipad */ = {
+			isa = PBXGroup;
+			children = (
+				1A9FBED717A450E40049D985 /* arrows.atlas */,
+				1A9FBED817A450E40049D985 /* arrows.json */,
+				1A9FBED917A450E40049D985 /* arrows.png */,
+				1A4CFFEA17A34C8F00061C83 /* goblins.atlas */,
+				1A4CFFEB17A34C8F00061C83 /* goblins.png */,
+				1A4CFFEC17A34C8F00061C83 /* spineboy.atlas */,
+				1A4CFFED17A34C8F00061C83 /* spineboy.png */,
+			);
+			path = ipad;
+			sourceTree = "<group>";
+		};
+		1A4CFFEE17A34C8F00061C83 /* ipadhd */ = {
+			isa = PBXGroup;
+			children = (
+				1A4CFFEF17A34C8F00061C83 /* goblins.atlas */,
+				1A4CFFF017A34C8F00061C83 /* goblins.png */,
+				1A4CFFF117A34C8F00061C83 /* spineboy.atlas */,
+				1A4CFFF217A34C8F00061C83 /* spineboy.png */,
+			);
+			path = ipadhd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2164,6 +2229,19 @@
 				1A4CFC5F17A34A5400061C83 /* iTunesArtwork in Resources */,
 				1A4CFCFE17A34A5700061C83 /* ChangeLog in Resources */,
 				1A4CFE7217A34A5D00061C83 /* project.pbxproj in Resources */,
+				1A4CFFFD17A34C8F00061C83 /* goblins.json in Resources */,
+				1A4CFFFE17A34C8F00061C83 /* spineboy.json in Resources */,
+				1A4CFFFF17A34C8F00061C83 /* goblins.atlas in Resources */,
+				1A4C000017A34C8F00061C83 /* goblins.png in Resources */,
+				1A4C000117A34C8F00061C83 /* spineboy.atlas in Resources */,
+				1A4C000217A34C8F00061C83 /* spineboy.png in Resources */,
+				1A4C000317A34C8F00061C83 /* goblins.atlas in Resources */,
+				1A4C000417A34C8F00061C83 /* goblins.png in Resources */,
+				1A4C000517A34C8F00061C83 /* spineboy.atlas in Resources */,
+				1A4C000617A34C8F00061C83 /* spineboy.png in Resources */,
+				1A9FBEDA17A450E40049D985 /* arrows.atlas in Resources */,
+				1A9FBEDB17A450E40049D985 /* arrows.json in Resources */,
+				1A9FBEDC17A450E40049D985 /* arrows.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2421,8 +2499,8 @@
 				1A4CFFCA17A34A6100061C83 /* cpSpatialIndex.c in Sources */,
 				1A4CFFCC17A34A6100061C83 /* cpSweep1D.c in Sources */,
 				1A4CFFCE17A34A6100061C83 /* cpVect.c in Sources */,
-				1A4CFFDC17A34A6200061C83 /* AppDelegate.cpp in Sources */,
-				1A4CFFDF17A34A6200061C83 /* HelloWorldScene.cpp in Sources */,
+				1A4C001217A34CBB00061C83 /* ExampleLayer.cpp in Sources */,
+				1A4C001517A34CCF00061C83 /* AppDelegate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2564,6 +2642,7 @@
 				1A4CFFE417A34A6200061C83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

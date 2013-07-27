@@ -1,0 +1,64 @@
+{
+"bones": [
+	{ "name": "Center" },
+	{ "name": "Bottom", "parent": "Center", "y": -200 },
+	{ "name": "Left", "parent": "Center", "x": -200 },
+	{ "name": "Right", "parent": "Center", "x": 200 },
+	{ "name": "Top", "parent": "Center", "y": 200 }
+],
+"slots": [
+	{ "name": "ArrowCenter", "bone": "Center", "attachment": "ArrowCenter" },
+	{ "name": "ArrowLeft", "bone": "Left", "attachment": "ArrowLeft" },
+	{ "name": "ArrowRight", "bone": "Right", "attachment": "ArrowRight" },
+	{ "name": "ArrowBottom", "bone": "Bottom", "attachment": "ArrowBottom" },
+	{ "name": "ArrowTop", "bone": "Top", "attachment": "ArrowTop" }
+],
+"skins": {
+	"default": {
+		"ArrowBottom": {
+			"ArrowBottom": { "scaleX": 0.25, "scaleY": 0.25, "width": 534, "height": 400 }
+		},
+		"ArrowCenter": {
+			"ArrowCenter": { "scaleX": 0.5, "scaleY": 0.5, "width": 399, "height": 399 }
+		},
+		"ArrowLeft": {
+			"ArrowLeft": { "x": -1, "scaleX": 0.25, "scaleY": 0.25, "width": 400, "height": 534 }
+		},
+		"ArrowRight": {
+			"ArrowRight": { "scaleX": 0.25, "scaleY": 0.25, "width": 400, "height": 534 }
+		},
+		"ArrowTop": {
+			"ArrowTop": { "scaleX": 0.25, "scaleY": 0.25, "width": 534, "height": 400 }
+		}
+	}
+},
+"animations": {
+	"spin_right": {
+		"bones": {
+			"Center": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": 270 },
+					{ "time": 0.6666, "angle": 180 },
+					{ "time": 1, "angle": 90 },
+					{ "time": 1.3333, "angle": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.6666, "x": 0.5, "y": 0.5 },
+					{ "time": 1.3333, "x": 1, "y": 1 }
+				]
+			},
+			"Bottom": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": 90 },
+					{ "time": 0.6666, "angle": 180 },
+					{ "time": 1, "angle": 270 },
+					{ "time": 1.3333, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}
