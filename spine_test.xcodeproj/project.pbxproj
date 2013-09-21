@@ -7,13 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A4C000017A34C8F00061C83 /* goblins.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFEB17A34C8F00061C83 /* goblins.png */; };
-		1A4C000117A34C8F00061C83 /* spineboy.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFEC17A34C8F00061C83 /* spineboy.atlas */; };
-		1A4C000217A34C8F00061C83 /* spineboy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFED17A34C8F00061C83 /* spineboy.png */; };
-		1A4C000317A34C8F00061C83 /* goblins.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFEF17A34C8F00061C83 /* goblins.atlas */; };
-		1A4C000417A34C8F00061C83 /* goblins.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFF017A34C8F00061C83 /* goblins.png */; };
-		1A4C000517A34C8F00061C83 /* spineboy.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFF117A34C8F00061C83 /* spineboy.atlas */; };
-		1A4C000617A34C8F00061C83 /* spineboy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFF217A34C8F00061C83 /* spineboy.png */; };
+		1A4690E817DFF443006F6647 /* Spider.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1A4690E617DFF443006F6647 /* Spider.atlas */; };
+		1A4690E917DFF443006F6647 /* Spider.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4690E717DFF443006F6647 /* Spider.png */; };
+		1A4690EB17DFF44E006F6647 /* Spider.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A4690EA17DFF44E006F6647 /* Spider.json */; };
+		1A4690EC17DFFB9E006F6647 /* libwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4CFDAF17A34A5A00061C83 /* libwebp.a */; };
 		1A4C001217A34CBB00061C83 /* ExampleLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C001017A34CBB00061C83 /* ExampleLayer.cpp */; };
 		1A4C001517A34CCF00061C83 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C001317A34CCF00061C83 /* AppDelegate.cpp */; };
 		1A4CFC3917A34A5400061C83 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4CFC3817A34A5400061C83 /* QuartzCore.framework */; };
@@ -127,8 +124,6 @@
 		1A4CFD9717A34A5900061C83 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A4CFD9617A34A5900061C83 /* EAGLView.mm */; };
 		1A4CFD9C17A34A5900061C83 /* AccelerometerSimulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4CFD9B17A34A5900061C83 /* AccelerometerSimulation.m */; };
 		1A4CFD9E17A34A5900061C83 /* platform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A4CFD9D17A34A5900061C83 /* platform.cpp */; };
-		1A4CFDAE17A34A5A00061C83 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4CFDAD17A34A5A00061C83 /* libcurl.a */; };
-		1A4CFDB017A34A5A00061C83 /* libwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4CFDAF17A34A5A00061C83 /* libwebp.a */; };
 		1A4CFDB717A34A5A00061C83 /* CCScriptSupport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A4CFDB617A34A5A00061C83 /* CCScriptSupport.cpp */; };
 		1A4CFDBB17A34A5A00061C83 /* CCGLProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A4CFDBA17A34A5A00061C83 /* CCGLProgram.cpp */; };
 		1A4CFDBE17A34A5A00061C83 /* ccGLStateCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A4CFDBD17A34A5A00061C83 /* ccGLStateCache.cpp */; };
@@ -286,16 +281,15 @@
 		1A4CFFCA17A34A6100061C83 /* cpSpatialIndex.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A4CFFC917A34A6100061C83 /* cpSpatialIndex.c */; };
 		1A4CFFCC17A34A6100061C83 /* cpSweep1D.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A4CFFCB17A34A6100061C83 /* cpSweep1D.c */; };
 		1A4CFFCE17A34A6100061C83 /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A4CFFCD17A34A6100061C83 /* cpVect.c */; };
-		1A4CFFD617A34A6100061C83 /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4CFFD517A34A6100061C83 /* libwebsockets.a */; };
 		1A4CFFFD17A34C8F00061C83 /* goblins.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFE717A34C8F00061C83 /* goblins.json */; };
 		1A4CFFFE17A34C8F00061C83 /* spineboy.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFE817A34C8F00061C83 /* spineboy.json */; };
-		1A4CFFFF17A34C8F00061C83 /* goblins.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1A4CFFEA17A34C8F00061C83 /* goblins.atlas */; };
-		1A9FBEDA17A450E40049D985 /* arrows.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1A9FBED717A450E40049D985 /* arrows.atlas */; };
 		1A9FBEDB17A450E40049D985 /* arrows.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A9FBED817A450E40049D985 /* arrows.json */; };
-		1A9FBEDC17A450E40049D985 /* arrows.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A9FBED917A450E40049D985 /* arrows.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A4690E617DFF443006F6647 /* Spider.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Spider.atlas; sourceTree = "<group>"; };
+		1A4690E717DFF443006F6647 /* Spider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spider.png; sourceTree = "<group>"; };
+		1A4690EA17DFF44E006F6647 /* Spider.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Spider.json; sourceTree = "<group>"; };
 		1A4C000F17A34CBB00061C83 /* AppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacros.h; sourceTree = "<group>"; };
 		1A4C001017A34CBB00061C83 /* ExampleLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExampleLayer.cpp; sourceTree = "<group>"; };
 		1A4C001117A34CBB00061C83 /* ExampleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleLayer.h; sourceTree = "<group>"; };
@@ -889,17 +883,7 @@
 		1A4CFFD817A34A6200061C83 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		1A4CFFE717A34C8F00061C83 /* goblins.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = goblins.json; sourceTree = "<group>"; };
 		1A4CFFE817A34C8F00061C83 /* spineboy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = spineboy.json; sourceTree = "<group>"; };
-		1A4CFFEA17A34C8F00061C83 /* goblins.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = goblins.atlas; sourceTree = "<group>"; };
-		1A4CFFEB17A34C8F00061C83 /* goblins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goblins.png; sourceTree = "<group>"; };
-		1A4CFFEC17A34C8F00061C83 /* spineboy.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spineboy.atlas; sourceTree = "<group>"; };
-		1A4CFFED17A34C8F00061C83 /* spineboy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spineboy.png; sourceTree = "<group>"; };
-		1A4CFFEF17A34C8F00061C83 /* goblins.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = goblins.atlas; sourceTree = "<group>"; };
-		1A4CFFF017A34C8F00061C83 /* goblins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goblins.png; sourceTree = "<group>"; };
-		1A4CFFF117A34C8F00061C83 /* spineboy.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spineboy.atlas; sourceTree = "<group>"; };
-		1A4CFFF217A34C8F00061C83 /* spineboy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spineboy.png; sourceTree = "<group>"; };
-		1A9FBED717A450E40049D985 /* arrows.atlas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = arrows.atlas; sourceTree = "<group>"; };
-		1A9FBED817A450E40049D985 /* arrows.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = arrows.json; sourceTree = "<group>"; };
-		1A9FBED917A450E40049D985 /* arrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrows.png; sourceTree = "<group>"; };
+		1A9FBED817A450E40049D985 /* arrows.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = arrows.json; path = ../ipad/arrows.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -907,6 +891,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A4690EC17DFFB9E006F6647 /* libwebp.a in Frameworks */,
 				1A4CFC3917A34A5400061C83 /* QuartzCore.framework in Frameworks */,
 				1A4CFC3B17A34A5400061C83 /* OpenGLES.framework in Frameworks */,
 				1A4CFC3D17A34A5400061C83 /* OpenAL.framework in Frameworks */,
@@ -915,9 +900,6 @@
 				1A4CFC4317A34A5400061C83 /* UIKit.framework in Frameworks */,
 				1A4CFC4517A34A5400061C83 /* Foundation.framework in Frameworks */,
 				1A4CFC4717A34A5400061C83 /* CoreGraphics.framework in Frameworks */,
-				1A4CFDAE17A34A5A00061C83 /* libcurl.a in Frameworks */,
-				1A4CFDB017A34A5A00061C83 /* libwebp.a in Frameworks */,
-				1A4CFFD617A34A6100061C83 /* libwebsockets.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2135,7 +2117,9 @@
 		1A4CFFE617A34C8F00061C83 /* common */ = {
 			isa = PBXGroup;
 			children = (
+				1A4690EA17DFF44E006F6647 /* Spider.json */,
 				1A4CFFE717A34C8F00061C83 /* goblins.json */,
+				1A9FBED817A450E40049D985 /* arrows.json */,
 				1A4CFFE817A34C8F00061C83 /* spineboy.json */,
 			);
 			path = common;
@@ -2144,13 +2128,8 @@
 		1A4CFFE917A34C8F00061C83 /* ipad */ = {
 			isa = PBXGroup;
 			children = (
-				1A9FBED717A450E40049D985 /* arrows.atlas */,
-				1A9FBED817A450E40049D985 /* arrows.json */,
-				1A9FBED917A450E40049D985 /* arrows.png */,
-				1A4CFFEA17A34C8F00061C83 /* goblins.atlas */,
-				1A4CFFEB17A34C8F00061C83 /* goblins.png */,
-				1A4CFFEC17A34C8F00061C83 /* spineboy.atlas */,
-				1A4CFFED17A34C8F00061C83 /* spineboy.png */,
+				1A4690E617DFF443006F6647 /* Spider.atlas */,
+				1A4690E717DFF443006F6647 /* Spider.png */,
 			);
 			path = ipad;
 			sourceTree = "<group>";
@@ -2158,10 +2137,6 @@
 		1A4CFFEE17A34C8F00061C83 /* ipadhd */ = {
 			isa = PBXGroup;
 			children = (
-				1A4CFFEF17A34C8F00061C83 /* goblins.atlas */,
-				1A4CFFF017A34C8F00061C83 /* goblins.png */,
-				1A4CFFF117A34C8F00061C83 /* spineboy.atlas */,
-				1A4CFFF217A34C8F00061C83 /* spineboy.png */,
 			);
 			path = ipadhd;
 			sourceTree = "<group>";
@@ -2231,17 +2206,10 @@
 				1A4CFE7217A34A5D00061C83 /* project.pbxproj in Resources */,
 				1A4CFFFD17A34C8F00061C83 /* goblins.json in Resources */,
 				1A4CFFFE17A34C8F00061C83 /* spineboy.json in Resources */,
-				1A4CFFFF17A34C8F00061C83 /* goblins.atlas in Resources */,
-				1A4C000017A34C8F00061C83 /* goblins.png in Resources */,
-				1A4C000117A34C8F00061C83 /* spineboy.atlas in Resources */,
-				1A4C000217A34C8F00061C83 /* spineboy.png in Resources */,
-				1A4C000317A34C8F00061C83 /* goblins.atlas in Resources */,
-				1A4C000417A34C8F00061C83 /* goblins.png in Resources */,
-				1A4C000517A34C8F00061C83 /* spineboy.atlas in Resources */,
-				1A4C000617A34C8F00061C83 /* spineboy.png in Resources */,
-				1A9FBEDA17A450E40049D985 /* arrows.atlas in Resources */,
 				1A9FBEDB17A450E40049D985 /* arrows.json in Resources */,
-				1A9FBEDC17A450E40049D985 /* arrows.png in Resources */,
+				1A4690E817DFF443006F6647 /* Spider.atlas in Resources */,
+				1A4690E917DFF443006F6647 /* Spider.png in Resources */,
+				1A4690EB17DFF44E006F6647 /* Spider.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2583,12 +2551,13 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/spine_test/libs/cocos2dx/platform/third_party/ios/libraries\"",
 					"\"$(SRCROOT)/spine_test/libs/libwebsockets/ios/lib\"",
+					"\"$(SRCROOT)/../../XP VM Shared Data/NLIdeas SVN Checkout/iPhone Projects/Star Crossing/Source/Box2DTestBed/Box2DTestBed/libs/cocos2dx/platform/third_party/ios/libraries\"",
+					"\"$(SRCROOT)/../../XP VM Shared Data/NLIdeas SVN Checkout/iPhone Projects/Star Crossing/Source/Box2DTestBed/Box2DTestBed/libs/libwebsockets/ios/lib\"",
 				);
 				OTHER_LDFLAGS = (
 					"-lxml2",
 					"-lz",
 					"-lsqlite3",
-					"-websockets",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"spine_test/libs/Chipmunk/include/chipmunk\"";
@@ -2609,12 +2578,13 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/spine_test/libs/cocos2dx/platform/third_party/ios/libraries\"",
 					"\"$(SRCROOT)/spine_test/libs/libwebsockets/ios/lib\"",
+					"\"$(SRCROOT)/../../XP VM Shared Data/NLIdeas SVN Checkout/iPhone Projects/Star Crossing/Source/Box2DTestBed/Box2DTestBed/libs/cocos2dx/platform/third_party/ios/libraries\"",
+					"\"$(SRCROOT)/../../XP VM Shared Data/NLIdeas SVN Checkout/iPhone Projects/Star Crossing/Source/Box2DTestBed/Box2DTestBed/libs/libwebsockets/ios/lib\"",
 				);
 				OTHER_LDFLAGS = (
 					"-lxml2",
 					"-lz",
 					"-lsqlite3",
-					"-websockets",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "\"spine_test/libs/Chipmunk/include/chipmunk\"";

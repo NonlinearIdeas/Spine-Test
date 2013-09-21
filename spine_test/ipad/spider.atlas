@@ -1,0 +1,117 @@
+
+Spider.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+sp_abdomen
+  rotate: false
+  xy: 1, 84
+  size: 189, 170
+  orig: 189, 170
+  offset: 0, 0
+  index: -1
+sp_eyes_lt
+  rotate: false
+  xy: 825, 120
+  size: 32, 61
+  orig: 32, 61
+  offset: 0, 0
+  index: -1
+sp_eyes_rt
+  rotate: false
+  xy: 883, 193
+  size: 32, 61
+  orig: 32, 61
+  offset: 0, 0
+  index: -1
+sp_head
+  rotate: false
+  xy: 1, 1
+  size: 102, 81
+  orig: 102, 83
+  offset: 0, 2
+  index: -1
+sp_leg_back_bottom
+  rotate: false
+  xy: 825, 183
+  size: 56, 71
+  orig: 56, 77
+  offset: 0, 5
+  index: -1
+sp_leg_back_middle
+  rotate: false
+  xy: 506, 21
+  size: 81, 233
+  orig: 81, 234
+  offset: 0, 1
+  index: -1
+sp_leg_back_top
+  rotate: false
+  xy: 336, 90
+  size: 83, 164
+  orig: 83, 165
+  offset: 0, 0
+  index: -1
+sp_leg_front_bottom
+  rotate: false
+  xy: 749, 51
+  size: 53, 59
+  orig: 53, 65
+  offset: 0, 5
+  index: -1
+sp_leg_front_middle
+  rotate: false
+  xy: 672, 50
+  size: 75, 204
+  orig: 75, 204
+  offset: 0, 0
+  index: -1
+sp_leg_front_top
+  rotate: false
+  xy: 749, 112
+  size: 74, 142
+  orig: 74, 143
+  offset: 0, 0
+  index: -1
+sp_leg_middle_bottom
+  rotate: false
+  xy: 105, 11
+  size: 56, 71
+  orig: 56, 77
+  offset: 0, 5
+  index: -1
+sp_leg_middle_middle
+  rotate: false
+  xy: 589, 21
+  size: 81, 233
+  orig: 81, 234
+  offset: 0, 1
+  index: -1
+sp_leg_middle_top
+  rotate: false
+  xy: 421, 90
+  size: 83, 164
+  orig: 83, 165
+  offset: 0, 0
+  index: -1
+sp_pincer_lt
+  rotate: false
+  xy: 917, 213
+  size: 52, 41
+  orig: 52, 41
+  offset: 0, 0
+  index: -1
+sp_pincer_rt
+  rotate: false
+  xy: 917, 213
+  size: 52, 41
+  orig: 52, 41
+  offset: 0, 0
+  index: -1
+sp_thorax
+  rotate: false
+  xy: 192, 126
+  size: 142, 128
+  orig: 142, 128
+  offset: 0, 0
+  index: -1

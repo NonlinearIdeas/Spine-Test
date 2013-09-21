@@ -31,7 +31,7 @@
 
 using namespace cocos2d::extension;
 
-class ExampleLayer: public cocos2d::CCLayer {
+class ExampleLayer: public cocos2d::CCLayerColor {
 private:
 	CCSkeletonAnimation* skeletonNode;
 

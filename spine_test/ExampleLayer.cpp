@@ -38,27 +38,26 @@ CCScene* ExampleLayer::scene () {
 	return scene;
 }
 
-bool ExampleLayer::init () {
-	if (!CCLayer::init()) return false;
+bool ExampleLayer::init ()
+{
+	if (!CCLayerColor::initWithColor(ccc4(250, 250, 250, 250)))
+       return false;
 
-	skeletonNode = new CCSkeletonAnimation("arrows.json", "arrows.atlas");
-   //	skeletonNode->setMix("walk", "jump", 0.2f);
-   //	skeletonNode->setMix("jump", "walk", 0.2f);
+   
+   skeletonNode = new CCSkeletonAnimation("Spider.json", "Spider.atlas");
+   skeletonNode->setMix("WalkRight", "IdleFromRight", 0.5f);
+   skeletonNode->setMix("IdleFromRight", "WalkRight", 0.5f);
+	skeletonNode->setAnimation("WalkRight", true);
+   skeletonNode->setScale(1.0);
+   skeletonNode->setSlotsToSetupPose();
 
-	skeletonNode->setAnimation("spin_right", true);
 	// This shows how to setup animations to play back to back.
-	//skeletonNode->addAnimation("jump", true);
-	//skeletonNode->addAnimation("walk", true);
-	//skeletonNode->addAnimation("jump", true);
+   //	skeletonNode->addAnimation("WalkRight", false);
+   //	skeletonNode->addAnimation("IdleFromRight", false);
 
-	skeletonNode->timeScale = 0.5f;
-	skeletonNode->debugBones = true;
-/*
-	skeletonNode->runAction(CCRepeatForever::create(CCSequence::create(CCFadeOut::create(1),
-		CCFadeIn::create(1),
-		CCDelayTime::create(5),
-		NULL)));
-*/
+	skeletonNode->timeScale = 0.75f;
+	skeletonNode->debugBones = false;
+
 	CCSize windowSize = CCDirector::sharedDirector()->getWinSize();
 	skeletonNode->setPosition(ccp(windowSize.width / 2, windowSize.height/2));
 	addChild(skeletonNode);
@@ -71,21 +70,44 @@ bool ExampleLayer::init () {
 
 void ExampleLayer::update (float deltaTime)
 {
+   // We can use the update to check on the states of the animations.
    /*
-    if (skeletonNode->states[0]->loop)
-    {
-        if (skeletonNode->states[0]->time > 2)
-        {
-           skeletonNode->setAnimation("jump", false);
-        }
-    }
-    else
-    {
-        if (skeletonNode->states[0]->time > 1)
-        {
-           skeletonNode->setAnimation("walk", true);
-        }
-    }
+   for(int idx = 0; idx < skeletonNode->states.size(); idx++)
+   {
+      CCLOG("");
+      CCLOG("------------ Animation #%d ------------",idx);
+      CCLOG("Name: %s Duration: %f Time: %f",
+            skeletonNode->states[idx]->animation->name,
+            skeletonNode->states[idx]->animation->duration,
+            skeletonNode->states[idx]->time
+            );
+      CCLOG("---------------------------------------");
+   }
     */
-    // if (skeletonNode->states[0]->time > 0.1) CCDirector::sharedDirector()->replaceScene(ExampleLayer::scene());
+   
+   
+   /* A word of caution here:  The original implementation of 
+    * CCSkeletonAnimation autoschedules itself to have update(...) called 
+    * automatically.  This has been removed so that the call to update(...) is now
+    * explicit and you have fine control over it.  If you are doing fixed step timing,
+    * or using the times of the animations to drive your states, you will need this
+    * to be done.
+    */
+    
+   skeletonNode->update(deltaTime);
+   if(skeletonNode->states[0]->time > skeletonNode->states[0]->animation->duration)
+   {  // The current animation has finished.
+      // Set the other animation.
+      if(strcmp("IdleFromRight", skeletonNode->states[0]->animation->name) == 0)
+      {  // This animation is finished.
+         skeletonNode->addAnimation("WalkRight", false);
+         CCLOG("Setting WalkRight");
+      }
+      if(strcmp("WalkRight", skeletonNode->states[0]->animation->name) == 0)
+      {  // This animation is finished.
+         skeletonNode->addAnimation("IdleFromRight", false);
+         CCLOG("Setting IdleFromRight");
+      }
+      
+   }
 }

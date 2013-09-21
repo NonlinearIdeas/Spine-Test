@@ -61,7 +61,9 @@ void CCSkeleton::initialize () {
 	setOpacityModifyRGB(true);
 
 	setShaderProgram(CCShaderCache::sharedShaderCache()->programForKey(kCCShader_PositionTextureColor));
-	scheduleUpdate();
+   // JRW - This should NOT be done automatically...the
+   // owner of the skeleton should call it.
+	// scheduleUpdate();
 }
 
 void CCSkeleton::setSkeletonData (SkeletonData *skeletonData, bool ownsSkeletonData) {
